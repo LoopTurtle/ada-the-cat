@@ -6,10 +6,10 @@ let starImage = document.querySelector('img');
 
 starImage.onclick = function () {
     let mySrc = starImage.getAttribute('src');
-    if (mySrc === 'images/ada_superior.jpg') {
-        starImage.setAttribute('src', 'images/ada_engineer.jpg');
+    if (mySrc === 'images/ada_superior.JPG') {
+        starImage.setAttribute('src', 'images/ada_engineer.JPG');
     } else {
-        starImage.setAttribute('src', 'images/ada_superior.jpg');
+        starImage.setAttribute('src', 'images/ada_superior.JPG');
     }
 }
 
